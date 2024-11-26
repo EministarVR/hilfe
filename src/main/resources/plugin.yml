@@ -1,0 +1,19 @@
+name: man
+version: 1.0
+main: me.eministarvr.tpa2.Tpa2
+api-version: 1.20
+commands:
+  tpa:
+    description: Sende eine TPA-Anfrage an einen anderen Spieler.
+    usage: /<command> <Spielername>
+  tpaaccept:
+    description: Akzeptiere eine TPA-Anfrage von einem anderen Spieler.
+    usage: /<command> <Spielername>
+  tpadeny:
+    description: Lehne eine TPA-Anfrage von einem anderen Spieler ab.
+    usage: /<command> <Spielername>
+  help:
+    description: Erhalte eine Liste an verfügbaren Commands
+    usage: /<command>
+
+  credits: Erfahre wer das Plugin gemacht hat.
